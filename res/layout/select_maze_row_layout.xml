@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="right"
+    android:orientation="horizontal"
+    android:paddingLeft="3dp"
+    android:paddingTop="5dp" >
+ 
+   <ir.coolapps.coolmazes.CustomControls.BkoodakTextView
+       android:id="@+id/maze_solution_steps"
+       android:layout_width="0dp"
+       android:layout_height="wrap_content"
+       android:layout_gravity="center_vertical|center_horizontal"
+       android:layout_marginRight="5dp"
+       android:layout_weight="3"
+       android:gravity="right|center_vertical"
+       android:textSize="14sp" />
+
+     <ir.coolapps.coolmazes.CustomControls.BkoodakTextView
+         android:id="@+id/maze_name"
+         android:layout_width="0dp"
+         android:layout_height="wrap_content"
+         android:layout_gravity="center_vertical|center_horizontal"
+         android:layout_weight="5"
+         android:gravity="right|center_vertical"
+         android:textSize="16sp"
+         android:textStyle="bold" />
+ 
+        <ImageView
+            android:id="@+id/maze_solved_tick"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/mouse_hole_wait" />
+
+        <ir.coolapps.coolmazes.CustomControls.BkoodakTextView
+            android:id="@+id/maze_level"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="right|center_vertical"
+            android:layout_weight="1"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="27"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+             
+</LinearLayout>

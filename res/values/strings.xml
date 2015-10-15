@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">موش و پنیر !</string>
+    <string name="menu_restart">از نو</string>
+    <string name="menu_map_prev">مرحله قبل</string>
+    <string name="menu_map_next">مرحله بعد</string>
+    <string name="menu_select_maze">انتخاب مرحله</string>
+    <string name="menu_sensor">سنسور</string>
+    <string name="menu_about">درباره</string>
+    <string name="comment">لطفا با امتیاز مثبت خود ما را در بهبود کیفیت و تولید برنامه های بهتر همیاری کنید \n
+          یک لحظه وقت خود را برای ما اختصاص دهید و با کلیک بر روی دکمه زیر به برنامه امتیاز دهید \n
+          ممنون از شما</string>
+    <string name="select_maze_title">Select level</string>
+    <string name="about_text"><b>CoolMazes - Mice And Cheese!</b>\n<i>Copyright © 2014, www.CoolApps.ir</i>\n\n
+    sanan.exe@gmail.com \n
+    +989391551018 \n     </string>
+    <string name="maze_label">Maze:</string>
+
+</resources>
